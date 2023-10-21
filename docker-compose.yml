@@ -13,6 +13,8 @@ services:
     restart: always
     networks:
       - mysql-network
+    volumes:
+      - ./data:/data
 
   cli:
     image: mysql:8.0.27

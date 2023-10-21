@@ -8,3 +8,7 @@
 ## connection
 
 * `docker-compose run cli`
+
+## data init
+
+* `docker exec -it slow-query-practice-mysql-1 bash /data/isucon11_sql/init.sh`
